@@ -12,9 +12,20 @@ let nature = document.querySelector(".nature")
 let clock = document.querySelector(".clock")
 let ocean = document.querySelector(".ocean-three")
 let congrats = document.querySelector(".option-two-end")
+let pigTwo = document.querySelector(".pig-two")
 // When you're ready to make event handlers, uncomment the code below. 
 //  - Then fill in the blanks with the correct variables.
 
+
+
+  pigTwo.addEventListener("click" , function(){
+    storyOpening.style.display = "block";
+    optionTwo.style.display = "none";
+    optionTwoScreen.style.display = "none";
+    optionTwo.style.display = "block";
+
+
+    });
 
  optionOne.addEventListener('click', function(){
     optionOneScreen.style.display = "block";
@@ -40,6 +51,7 @@ ocean.addEventListener("click" , function(){
 
   
 });
+  
 
 
  });
@@ -61,6 +73,8 @@ ocean.addEventListener("click" , function(){
     optionOneScreen.style.display = "none";
 
  });
+ 
+ 
 
 
  
@@ -107,4 +121,6 @@ ocean.addEventListener("click" , function(){
    optionOneEnd.style.display = "block";
 
  });
+
+ 
 
